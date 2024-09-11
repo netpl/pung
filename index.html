@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대성펑</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- 외부 스타일 시트 로드 -->
+</head>
+<body>
+    <div id="game-container">
+        <!-- 점수 표시 -->
+        <div id="score">Score: 0</div>
+        
+        <!-- 게임 재시작 버튼 -->
+        <button id="restart-btn" onclick="restartGame()">Restart</button>
+    </div>
+
+    <!-- Phaser.js CDN 로드 -->
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+
+    <!-- 게임 로직 -->
+    <script src="js/game.js"></script>
+</body>
+</html>
